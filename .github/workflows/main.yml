@@ -11,8 +11,7 @@
       runs-on: ubuntu-latest
 
       steps:
-        - name: 'testing github'
-          run: pwd
+        - name: 'printings content'
+          run: ls
 
-        - name: 'testing printing'
-          run: echo 7oda
+
